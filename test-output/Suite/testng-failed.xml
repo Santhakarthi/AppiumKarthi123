@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test2(failed)">
+    <parameter name="port" value="4721"/>
+    <parameter name="deviceName" value="RedmiNote 9ProMax"/>
+    <parameter name="UDID" value="88068908"/>
+    <classes>
+      <class name="TestScript.GeneralStoreLogin">
+        <methods>
+          <include name="CompatibilityTesting" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestScript.GeneralStoreLogin -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="2" parallel="tests" name="Test1(failed)">
+    <parameter name="port" value="4723"/>
+    <parameter name="deviceName" value="Madhumitha jaganath"/>
+    <parameter name="UDID" value="RZ8T31JR73N"/>
+    <classes>
+      <class name="TestScript.GeneralStoreLogin">
+        <methods>
+          <include name="CompatibilityTesting" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestScript.GeneralStoreLogin -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
